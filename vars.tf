@@ -12,9 +12,9 @@ variable "AWS_PROJECT_NAME" {
 }
 
 variable "PATH_TO_PRIVATE_KEY" {
-  default = "mykey"
+  default = "mynodekey"
 }
 
 variable "PATH_TO_PUBLIC_KEY" {
-  default = "mykey.pub"
+  default = "mynodekey.pub"
 }
