@@ -1,5 +1,4 @@
 resource "aws_instance" "app-instance" {
-  count = var.APP_INSTANCE_COUNT
   ami = var.APP_INSTANCE_AMI
   instance_type = "t2.micro"
 
