@@ -13,7 +13,7 @@ resource "aws_security_group" "app-securitygroup" {
     from_port   = 22
     to_port     = 22
     protocol    = "tcp"
-    cidr_blocks = [local.workstation-external-cidr]
+    cidr_blocks = ["0.0.0.0/0"]
   }
   ingress {
     from_port   = 80
